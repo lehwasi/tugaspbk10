@@ -1,0 +1,214 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Bakso Solo",
+      "menu": [
+        "Bakso",
+        "Mie Ayam"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sate Madura",
+      "menu": [
+        "Sate Ayam",
+        "Lontong"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "date": "2025-07-03",
+      "total": 28000
+    },
+    {
+      "id": 2,
+      "date": "2025-07-04",
+      "total": 18000
+    },
+    {
+      "id": 1751792788302,
+      "date": "2025-07-06",
+      "total": 15000
+    },
+    {
+      "id": 1751792886382,
+      "date": "2025-07-06",
+      "total": 15000,
+      "items": [
+        {
+          "id": 1751792883994,
+          "name": "Bakso",
+          "quantity": 1,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": 1751793863406,
+      "date": "2025-07-06",
+      "total": 30000,
+      "items": [
+        {
+          "id": 1751793822587,
+          "name": "Bakso",
+          "quantity": 1,
+          "price": 15000
+        },
+        {
+          "id": 1751793835966,
+          "name": "Sate Ayam",
+          "quantity": 1,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": 1751793876582,
+      "date": "2025-07-06",
+      "total": 60000,
+      "items": [
+        {
+          "id": 1751793868714,
+          "name": "Bakso",
+          "quantity": 4,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": 1751796969536,
+      "date": "2025-07-06",
+      "total": 20000,
+      "items": [
+        {
+          "id": 1751796964984,
+          "name": "Bakso Urat",
+          "quantity": 1,
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "id": 1751799649533,
+      "date": "2025-07-06",
+      "total": 20000,
+      "items": [
+        {
+          "id": 1751799645129,
+          "name": "Ayam Crispy",
+          "quantity": 1,
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "id": 1751816776849,
+      "date": "2025-07-06",
+      "total": 20000,
+      "items": [
+        {
+          "id": 1751816773865,
+          "name": "Ayam Crispy",
+          "quantity": 1,
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "id": 1751830217258,
+      "date": "2025-07-06",
+      "total": 20000,
+      "items": [
+        {
+          "id": 1751829980142,
+          "name": "Bakso Urat",
+          "quantity": 1,
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "id": 1751830705263,
+      "date": "2025-07-06",
+      "total": 80000,
+      "items": [
+        {
+          "id": 1751830224515,
+          "name": "Bakso Urat",
+          "quantity": 1,
+          "price": 20000
+        },
+        {
+          "id": 1751830225427,
+          "name": "Nasi Goreng Spesial",
+          "quantity": 1,
+          "price": 20000
+        },
+        {
+          "id": 1751830229087,
+          "name": "Gado-Gado Betawi",
+          "quantity": 1,
+          "price": 20000
+        },
+        {
+          "id": 1751830232499,
+          "name": "Es Campur",
+          "quantity": 1,
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "id": 1751834229841,
+      "date": "2025-07-06",
+      "total": 20000,
+      "items": [
+        {
+          "id": 1751834222565,
+          "name": "Ayam Crispy",
+          "quantity": 1,
+          "price": 20000,
+          "image": "/src/assets/menus/ayamCrispy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1751835729835,
+      "date": "2025-07-06",
+      "total": 80000,
+      "items": [
+        {
+          "id": 1751835719771,
+          "name": "Bakso Urat",
+          "quantity": 1,
+          "price": 20000,
+          "image": "/src/assets/menus/baksoUrat.jpg"
+        },
+        {
+          "id": 1751835721633,
+          "name": "Gado-Gado Betawi",
+          "quantity": 1,
+          "price": 20000,
+          "image": "/src/assets/menus/gadoGado.jpg"
+        },
+        {
+          "id": 1751835722615,
+          "name": "Martabak Manis",
+          "quantity": 1,
+          "price": 20000,
+          "image": "/src/assets/menus/martabak.jpg"
+        },
+        {
+          "id": 1751835724667,
+          "name": "Bubur Ayam",
+          "quantity": 1,
+          "price": 20000,
+          "image": "/src/assets/menus/bubur.jpg"
+        }
+      ]
+    }
+  ]
+}

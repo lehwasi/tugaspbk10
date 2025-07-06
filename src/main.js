@@ -1,8 +1,17 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'  // ⬅️ Import router
-import './assets/main.css'      // ⬅️ Import CSS global (sesuaikan path jika beda)
+import router from './router'
+import { createPinia } from 'pinia'
+import { useUserStore } from './stores/user' // ← Tambahkan ini
+import './assets/main.css'
 
-createApp(App)
-  .use(router)  // Pasang router
-  .mount('#app')
+const app = createApp(App)
+
+const pinia = createPinia()
+app.use(pinia)
+app.use(router)
+
+const userStore = useUserStore()
+userStore.loadUser() // ← Pastikan user tetap login setelah reload
+
+app.mount('#app')
